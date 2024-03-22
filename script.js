@@ -62,9 +62,8 @@ function filtrarCategorias(filtro){
 
         if(!categoria.includes(valorFiltro) && valorFiltro != "tudo"){
             video.style.display = "none";
-        } else {
+        } else {g
             video.style.display = "block";
         }
     })
 }
-
